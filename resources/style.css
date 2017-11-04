@@ -1,0 +1,75 @@
+* {
+  border: 1px solid black;
+}
+
+
+/*
+########### hEADER #########
+*/
+
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin: 0;
+  width: 100%;
+  height: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header nav{
+  padding-right: 30px;
+}
+
+a {
+  color: black;
+}
+
+.logo span{
+  color: MediumAquamarine;
+  padding-left: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+/*
+########### CONTAINER ###########
+*/
+
+.container {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+
+}
